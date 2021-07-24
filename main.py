@@ -18,13 +18,13 @@ def home():
 def about():
     return render_template("about.html")
 
-@app.route('/blog-home')
-def bloghome():
-    return render_template("blog-home.html")
+# @app.route('/bloghome')
+# def bloghome():
+#     return render_template("blog-home.html")
 
-@app.route('/blog-post')
-def blogpost():
-    return render_template("blog-post.html")
+# @app.route('/blogpost')
+# def blogpost():
+#     return render_template("blog-post.html")
 
 @app.route('/contact')
 def contact():
@@ -34,13 +34,53 @@ def contact():
 def faq():
     return render_template("faq.html")
 
-@app.route('/Academy-of-Public-Health')
-def aph():
-    return render_template("aph.html")
+# @app.route('/Academy-of-Public-Health')
+# def aph():
+#     return render_template("aph.html")
 
-@app.route('/portfolio-item')
-def portfolioitem():
-    return render_template("portfolio-item.html")
+@app.route('/ramp1000')
+def RAMP1000():
+    return render_template("portfolio-item-RAMP1000.html")
+
+@app.route('/ypph')
+def YPPH():
+    return render_template("portfolio-item-YPPH.html")
+
+@app.route('/way')
+def TWC():
+    return render_template("portfolio-item-The-WAY-Campaign.html")
+
+@app.route('/hllp')
+def HLLP():
+    return render_template("portfolio-item-HLLP.html")
+
+@app.route('/vip')
+def VIP():
+    return render_template("portfolio-item-VIP.html")
+
+@app.route('/kampala')
+def Kampala():
+    return render_template("portfolio-item-kampala.html")
+
+@app.route('/cso-pre-consultation-meeting-for-west-africa-region')
+def CSO():
+    return render_template("portfolio-item-CSO.html")
+
+@app.route('/achieve-campaign-partnership-with-white-ribbon-alliance-nigeria')
+def Achieve():
+    return render_template("portfolio-item-ACHIEVE.html")
+
+@app.route('/planetary-health-alliance')
+def Planetary():
+    return render_template("portfolio-item-Planetary.html")
+
+@app.route('/legislative-network-for-universal-health-coverage-project')
+def Legislative():
+    return render_template("portfolio-item-Legislative.html")
+
+@app.route('/healthcare-improvement-project')
+def HCIP():
+    return render_template("portfolio-item-HCIP.html")
 
 @app.route('/portfolio-overview')
 def portfoliooverview():
