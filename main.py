@@ -34,9 +34,9 @@ def contact():
 def faq():
     return render_template("faq.html")
 
-@app.route('/' subdomain="aph")
-def aph():
-    return render_template("aph.html")
+# @app.route('/' subdomain="aph")
+# def aph():
+#     return render_template("aph.html")
 
 @app.route('/ramp1000')
 def RAMP1000():
@@ -113,5 +113,5 @@ def portfoliooverview():
 
 
 if __name__ == "__main__":
-    app.config['SERVER_NAME'] = "publichealth-edu.herokuapp.com"
+#     app.config['SERVER_NAME'] = "publichealth-edu.herokuapp.com"
     app.run(debug=True)
