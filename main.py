@@ -113,5 +113,5 @@ def portfoliooverview():
 
 
 if __name__ == "__main__":
-    app.config['SERVER_NAME'] = "publichealth-edu.herokuapp.com'
+    app.config['SERVER_NAME'] = "publichealth-edu.herokuapp.com"
     app.run(debug=True)
